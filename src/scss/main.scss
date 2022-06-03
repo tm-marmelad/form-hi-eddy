@@ -1,10 +1,64 @@
-$top-color: #0066cc;
-$bottom-color: #ffcc00;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
 
-.top {
-  color: $top-color;
+.box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 693px;
+  height: 598px;
+  left: 125px;
+  top: 183px;
+  border: 5px solid #000000;
+
+  h2 {
+    margin-left: 40px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #520096;
+  }
+
+  p {
+    margin: 0;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #520096;
+  }
+
+  input {
+    width: 255px;
+    height: 42px;
+    box-sizing: border-box;
+    border: 1px solid #520096;
+    border-radius: 10px;
+  }
+
+  button {
+    margin-left: 40px;   
+    width: 236px;
+    height: 53px;
+    background: #6D2CA9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), inset -1px 4px 17px -2px rgba(250, 253, 255, 0.8);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FBFBFB;
+  }
 }
 
-.bottom {
-  color: $bottom-color;
+.block {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  margin-right: 89px;
+  display: flex;
+  justify-content: space-between;
 }
